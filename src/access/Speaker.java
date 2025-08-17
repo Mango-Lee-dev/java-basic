@@ -1,7 +1,7 @@
 package access;
 
 public class Speaker {
-    int volume;
+    private int volume;
 
     Speaker(int volume) {
         this.volume = volume;
@@ -13,7 +13,7 @@ public class Speaker {
         } else {
             int prevVolume = volume;
             volume += 10;
-            System.out.println("Volume을 " + prevVolume + "에서 " + volume + "으로 올렸습니다.");
+            System.out.println("Volume 을 " + prevVolume + "에서 " + volume + "으로 올렸습니다.");
         }
     }
 
@@ -23,7 +23,7 @@ public class Speaker {
         } else {
             int prevVolume = volume;
             volume -= 10;
-            System.out.println("Volume을 " + prevVolume + "에서" + volume + "으로 낮췄습니다.");
+            System.out.println("Volume 을 " + prevVolume + "에서" + volume + "으로 낮췄습니다.");
         }
     }
 
